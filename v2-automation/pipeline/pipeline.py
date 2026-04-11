@@ -2,8 +2,8 @@
 AI 知识库四步流水线：采集 → 分析 → 整理 → 保存
 
 运行方式：
-    python pipeline/pipeline.py --sources github,rss --limit 20
-    python pipeline/pipeline.py --sources github --limit 5 --dry-run
+    python3 pipeline/pipeline.py --sources github,rss --limit 20
+    python3 pipeline/pipeline.py --sources github --limit 5 --dry-run
 """
 
 from __future__ import annotations
@@ -22,9 +22,10 @@ import httpx
 import yaml
 from dotenv import load_dotenv
 
-# 添加项目根目录到 path，以便导入 model_client
+# 添加项目根目录到 path，以便导入 model_client 和 rss_reader
 sys.path.insert(0, str(Path(__file__).parent))
 from model_client import create_provider, chat_with_retry, estimate_cost, LLMResponse
+from rss_reader import collect_rss  # noqa: F401 — 重导出供内部使用
 
 load_dotenv()
 logger = logging.getLogger(__name__)
@@ -95,74 +96,8 @@ def collect_github(limit: int = 10) -> list[dict[str, Any]]:
     return results
 
 
-def collect_rss(limit: int = 10) -> list[dict[str, Any]]:
-    """
-    从配置的 RSS 源采集内容。
-
-    Args:
-        limit: 最大采集数量
-
-    Returns:
-        原始数据列表
-    """
-    if not RSS_CONFIG.exists():
-        logger.warning("RSS 配置文件不存在: %s", RSS_CONFIG)
-        return []
-
-    with open(RSS_CONFIG, "r", encoding="utf-8") as f:
-        config = yaml.safe_load(f)
-
-    sources = [s for s in config.get("sources", []) if s.get("enabled", True)]
-    results: list[dict[str, Any]] = []
-    count = 0
-
-    with httpx.Client(timeout=20.0) as client:
-        for source in sources:
-            if count >= limit:
-                break
-
-            try:
-                resp = client.get(source["url"])
-                resp.raise_for_status()
-                feed_text = resp.text
-
-                # 简易 RSS 解析：提取 <item> 中的 <title> 和 <link>
-                items = re.findall(
-                    r"<item[^>]*>.*?<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>.*?"
-                    r"<link[^>]*>(.*?)</link>.*?</item>",
-                    feed_text,
-                    re.DOTALL,
-                )
-
-                for title, link in items:
-                    if count >= limit:
-                        break
-                    title = title.strip()
-                    link = link.strip()
-                    if not title or not link:
-                        continue
-
-                    now = datetime.now(timezone.utc).isoformat()
-                    count += 1
-                    results.append({
-                        "id": f"rss-{datetime.now().strftime('%Y%m%d')}-{count:03d}",
-                        "title": title,
-                        "source": f"rss:{source['name']}",
-                        "source_url": link,
-                        "author": source.get("name", "unknown"),
-                        "published_at": now,
-                        "raw_description": "",
-                        "category": source.get("category", "general"),
-                        "collected_at": now,
-                    })
-
-                logger.info("RSS [%s] 采集: %d 条", source["name"], len(items))
-
-            except httpx.HTTPError as e:
-                logger.warning("RSS 源 [%s] 获取失败: %s", source["name"], e)
-
-    logger.info("RSS 采集完成: 共 %d 条", len(results))
-    return results
+# collect_rss 已抽取到 pipeline/rss_reader.py，此处通过顶部 import 重导出
+# 保持向后兼容：旧代码调用 pipeline.pipeline.collect_rss 仍然可用
 
 
 def step_collect(sources: list[str], limit: int) -> list[dict[str, Any]]:
@@ -418,6 +353,7 @@ def run_pipeline(
     sources: list[str],
     limit: int = 20,
     dry_run: bool = False,
+    steps: list[int] | None = None,
 ) -> dict[str, Any]:
     """
     运行完整的四步流水线。
@@ -426,31 +362,43 @@ def run_pipeline(
         sources: 数据源列表
         limit: 每个源的最大采集数
         dry_run: 仅模拟运行
+        steps: 要执行的步骤列表（1-4），默认全部执行
 
     Returns:
         运行统计信息
     """
+    run_steps = set(steps) if steps else {1, 2, 3, 4}
+
     start_time = datetime.now()
     print(f"\n{'#'*60}")
     print(f"# AI 知识库流水线 — {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"# 数据源: {', '.join(sources)} | 限制: {limit} | DryRun: {dry_run}")
+    print(f"# 执行步骤: {sorted(run_steps)}")
     print(f"{'#'*60}")
 
-    # Step 1: 采集
-    raw_items = step_collect(sources, limit)
+    raw_items: list[dict] = []
+    analyzed_items: list[dict] = []
+    organized_items: list[dict] = []
+    saved_files: list[str] = []
 
-    if not raw_items:
-        print("\n⚠️  没有采集到任何数据，流水线结束。")
-        return {"collected": 0, "analyzed": 0, "saved": 0}
+    # Step 1: 采集
+    if 1 in run_steps:
+        raw_items = step_collect(sources, limit)
+        if not raw_items:
+            print("\n⚠️  没有采集到任何数据，流水线结束。")
+            return {"collected": 0, "analyzed": 0, "saved": 0}
 
     # Step 2: 分析
-    analyzed_items = step_analyze(raw_items)
+    if 2 in run_steps and raw_items:
+        analyzed_items = step_analyze(raw_items)
 
     # Step 3: 整理
-    organized_items = step_organize(analyzed_items)
+    if 3 in run_steps and analyzed_items:
+        organized_items = step_organize(analyzed_items)
 
     # Step 4: 保存
-    saved_files = step_save(organized_items, dry_run=dry_run)
+    if 4 in run_steps and organized_items:
+        saved_files = step_save(organized_items, dry_run=dry_run)
 
     # 统计
     elapsed = (datetime.now() - start_time).total_seconds()
@@ -480,9 +428,9 @@ def main() -> None:
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 示例:
-    python pipeline/pipeline.py --sources github,rss --limit 20
-    python pipeline/pipeline.py --sources github --limit 5 --dry-run
-    python pipeline/pipeline.py --sources rss --limit 10
+    python3 pipeline/pipeline.py --sources github,rss --limit 20
+    python3 pipeline/pipeline.py --sources github --limit 5 --dry-run
+    python3 pipeline/pipeline.py --sources rss --limit 10
         """,
     )
     parser.add_argument(
@@ -507,8 +455,24 @@ def main() -> None:
         action="store_true",
         help="显示详细日志",
     )
+    parser.add_argument(
+        "--step",
+        type=int,
+        action="append",
+        help="指定执行的步骤（1-4），可多次使用，如 --step 1 --step 2",
+    )
+    parser.add_argument(
+        "--provider",
+        type=str,
+        default=None,
+        help="LLM 提供商（deepseek/qwen/openai），覆盖环境变量 LLM_PROVIDER",
+    )
 
     args = parser.parse_args()
+
+    # --provider 设置环境变量，让 model_client 自动使用
+    if args.provider:
+        os.environ["LLM_PROVIDER"] = args.provider
 
     logging.basicConfig(
         level=logging.DEBUG if args.verbose else logging.INFO,
@@ -517,7 +481,12 @@ def main() -> None:
     )
 
     sources = [s.strip() for s in args.sources.split(",")]
-    run_pipeline(sources=sources, limit=args.limit, dry_run=args.dry_run)
+    run_pipeline(
+        sources=sources,
+        limit=args.limit,
+        dry_run=args.dry_run,
+        steps=args.step,
+    )
 
 
 if __name__ == "__main__":
