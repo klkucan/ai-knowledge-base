@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import os
 import time
+import tempfile
 import logging
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
@@ -63,6 +64,8 @@ PRICING: dict[str, dict[str, float]] = {
     "qwen-turbo": {"input": 0.0005, "output": 0.001},
     "gpt-4o-mini": {"input": 0.00015, "output": 0.0006},
     "gpt-4o": {"input": 0.005, "output": 0.015},
+    "MiniMax-M2.7": {"input": 0.002, "output": 0.008},
+    "MiniMax-M2": {"input": 0.001, "output": 0.004},
 }
 
 
@@ -144,6 +147,7 @@ class OpenAICompatibleProvider(LLMProvider):
         return LLMResponse(content=content, usage=usage)
 
 
+
 # ── 工厂函数 ─────────────────────────────────────────────────────────────
 
 # 各提供商的环境变量映射
@@ -168,6 +172,13 @@ PROVIDER_CONFIG: dict[str, dict[str, str]] = {
         "model_env": "OPENAI_MODEL",
         "default_base_url": "https://api.openai.com/v1",
         "default_model": "gpt-4o-mini",
+    },
+    "minimax": {
+        "api_key_env": "MINIMAX_API_KEY",
+        "base_url_env": "MINIMAX_BASE_URL",
+        "model_env": "MINIMAX_MODEL",
+        "default_base_url": "https://api.minimaxi.com/anthropic/v1",
+        "default_model": "MiniMax-M2.7",
     },
 }
 

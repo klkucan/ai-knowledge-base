@@ -213,17 +213,33 @@ def step_analyze(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 content = re.sub(r"^```json\s*", "", content)
                 content = re.sub(r"\s*```$", "", content)
 
-                analysis = json.loads(content)
+                # MiniMax 模型会返回 <think> 标签包裹的内容，需要移除
+                if provider.model and provider.model.startswith("MiniMax"):
+                    content = re.sub(r"<think>.*?", "", content, flags=re.DOTALL)
 
-                # 合并原始数据和分析结果
-                enriched = {**item, **analysis}
-                enriched["status"] = "review"
-                enriched["analyzed_at"] = datetime.now(timezone.utc).isoformat()
-                analyzed.append(enriched)
+                # 检查 content 是否为有效 JSON（以 { 或 [ 开头）
+                if content.strip() and content.strip()[0] in ('{', '['):
+                    analysis = json.loads(content)
+                    enriched = {**item, **analysis}
+                    enriched["status"] = "review"
+                    enriched["analyzed_at"] = datetime.now(timezone.utc).isoformat()
+                    analyzed.append(enriched)
+                else:
+                    # MiniMax 返回纯文本时使用默认值
+                    logger.info("MiniMax 返回非 JSON 格式，使用默认分析结果: %s", item["title"])
+                    enriched = {
+                        **item,
+                        "summary": item.get("raw_description", "")[:200],
+                        "score": 5,
+                        "tags": ["llm"],
+                        "audience": "intermediate",
+                        "status": "draft",
+                        "analyzed_at": datetime.now(timezone.utc).isoformat(),
+                    }
+                    analyzed.append(enriched)
 
-            except (json.JSONDecodeError, KeyError) as e:
-                logger.warning("分析结果解析失败: %s — %s", item["title"], e)
-                # 解析失败时使用默认值
+            except Exception as e:
+                logger.warning("分析失败: %s — %s", item["title"], e)
                 enriched = {
                     **item,
                     "summary": item.get("raw_description", "")[:200],
