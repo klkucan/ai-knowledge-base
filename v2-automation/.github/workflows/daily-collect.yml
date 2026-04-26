@@ -1,37 +1,78 @@
+# ============================================================
+# GitHub Actions 工作流：每日 AI 知识库自动采集
+# ============================================================
+# 功能说明：
+#   - 每日 UTC 08:00（北京时间 16:00）自动从 GitHub 和 RSS 采集 AI 相关文章
+#   - 支持通过 GitHub Web界面手动触发（workflow_dispatch）
+#   - 采集完成后自动校验 JSON 格式和质量评分
+#   - 将新增文章以 JSON 格式提交到仓库
+# ============================================================
+
 name: Daily AI Knowledge Collection
 
-# 每天 UTC 08:00（北京时间 16:00）自动采集
+# 触发条件
 on:
+  # 定时触发：每天 UTC 08:00（即北京时间 16:00）
   schedule:
     - cron: "0 8 * * *"
-  workflow_dispatch:  # 支持手动触发
+  # 手动触发：在 GitHub Actions 页面点击 "Run workflow" 按钮即可执行
+  workflow_dispatch:
 
+# 权限设置
 permissions:
+  # 允许写入仓库内容（用于提交新增的 JSON 文章文件）
   contents: write
 
+# ============================================================
+# 任务定义
+# ============================================================
 jobs:
   collect:
+    # 在最新版本的 Ubuntu 虚拟机上运行
     runs-on: ubuntu-latest
 
     steps:
+      # --------------------------------------------
+      # 第1步：检出仓库代码
+      # --------------------------------------------
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # --------------------------------------------
+      # 第2步：配置 Python 3.11 环境
+      # --------------------------------------------
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
+          # 指定 Python 版本
           python-version: "3.11"
+          # 启用 pip 缓存，加快依赖安装速度
           cache: "pip"
 
+      # --------------------------------------------
+      # 第3步：安装 Python 依赖包
+      # --------------------------------------------
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # --------------------------------------------
+      # 第4步：运行采集流水线
+      # --------------------------------------------
+      # 说明：
+      #   - 从 GitHub 趋势和 RSS 源采集 AI 相关文章
+      #   - 每次最多采集 20 条
+      #   - 支持多平台 LLM（DeepSeek / Qwen / OpenAI）
+      # --------------------------------------------
       - name: Run collection pipeline
         env:
+          # 所使用的 LLM 提供者（deepseek / qwen / openai）
           LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
+          # 各平台 API Key（从 GitHub Secrets 配置）
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          # GitHub Token（用于访问 GitHub API）
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python pipeline/pipeline.py \
@@ -39,25 +80,50 @@ jobs:
             --limit 20 \
             --verbose
 
+      # --------------------------------------------
+      # 第5步：校验采集的文章
+      # --------------------------------------------
+      # 说明：
+      #   - validate_json.py：校验 JSON 格式和必填字段
+      #   - check_quality.py：质量评分（A/B/C 等级）
+      #   - 如果没有采集到任何文章，则跳过校验步骤
+      # --------------------------------------------
       - name: Validate collected articles
         run: |
           if ls knowledge/articles/*.json 1>/dev/null 2>&1; then
+            # 格式校验
             python hooks/validate_json.py knowledge/articles/*.json
+            # 质量评分
             python hooks/check_quality.py knowledge/articles/*.json
           else
             echo "No articles to validate"
           fi
 
+      # --------------------------------------------
+      # 第6步：提交并推送采集结果
+      # --------------------------------------------
+      # 说明：
+      #   - 配置 Git 用户信息（使用 GitHub Actions Bot 身份）
+      #   - 将 knowledge/ 目录下新增的 JSON 文件加入暂存区
+      #   - 如果没有新增文件则跳过提交
+      #   - 提交信息包含本次采集的文章数量和日期
+      # --------------------------------------------
       - name: Commit and push results
         run: |
+          # 配置 Git 用户信息
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          # 将采集到的文章加入暂存区
           git add knowledge/
+
+          # 检查是否有新增内容
           if git diff --staged --quiet; then
             echo "No new articles to commit"
           else
+            # 统计新增的 JSON 文件数量
             ARTICLE_COUNT=$(git diff --staged --name-only | grep -c '\.json$' || true)
+            # 提交并推送，提交信息包含文章数量和日期
             git commit -m "chore: daily collection - ${ARTICLE_COUNT} articles [$(date -u +%Y-%m-%d)]"
             git push
           fi
