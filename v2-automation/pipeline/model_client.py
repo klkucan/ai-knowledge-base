@@ -276,35 +276,31 @@ def chat_with_retry(
 
 # ── 便捷函数 ─────────────────────────────────────────────────────────────
 
-def chat(
+def quick_chat(
     prompt: str,
     system: str = "你是一个 AI 技术分析助手。",
-    provider: str | None = None,
-    max_retries: int = 3,
-) -> dict[str, Any]:
+    provider_name: str | None = None,
+) -> str:
     """
-    便捷调用 LLM，返回包含 content 和 usage 的字典。
+    快捷调用：一句话调用 LLM，返回纯文本。
 
     Args:
         prompt: 用户提示词
         system: 系统提示词
-        provider: 提供商名称（deepseek/qwen/openai），默认读环境变量
-        max_retries: 最大重试次数
+        provider_name: 提供商名称，默认读环境变量
 
     Returns:
-        {"content": str, "usage": {"prompt_tokens": int, "completion_tokens": int, ...}}
+        LLM 返回的文本内容
     """
     messages = [
         {"role": "system", "content": system},
         {"role": "user", "content": prompt},
     ]
 
-    provider_name = provider or os.getenv("LLM_PROVIDER", "deepseek")
-    llm = create_provider(provider_name)
+    provider = create_provider(provider_name)
     try:
-        response = chat_with_retry(llm, messages, max_retries=max_retries)
-        result = response.to_dict()
-        cost = estimate_cost(llm.model, response.usage)
+        response = chat_with_retry(provider, messages)
+        cost = estimate_cost(provider.model, response.usage)
         logger.info(
             "Token 用量: %d (prompt) + %d (completion) = %d, 估算成本: $%.6f",
             response.usage.prompt_tokens,
@@ -312,13 +308,9 @@ def chat(
             response.usage.total_tokens,
             cost,
         )
-        return result
+        return response.content
     finally:
-        llm.close()
-
-
-# 向后兼容别名
-quick_chat = lambda prompt, **kw: chat(prompt, **kw)["content"]
+        provider.close()
 
 
 # ── CLI 测试入口 ─────────────────────────────────────────────────────────
@@ -330,9 +322,8 @@ if __name__ == "__main__":
     print(f"提供商: {os.getenv('LLM_PROVIDER', 'deepseek')}")
 
     try:
-        result = chat("用一句话介绍什么是 AI Agent。")
-        print(f"\n回复: {result['content']}")
-        print(f"用量: {result['usage']}")
+        result = quick_chat("用一句话介绍什么是 AI Agent。")
+        print(f"\n回复: {result}")
     except Exception as e:
         print(f"\n错误: {e}")
         print("请检查 .env 文件中的 API Key 配置。")
