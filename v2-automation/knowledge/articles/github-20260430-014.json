@@ -1,0 +1,17 @@
+{
+  "id": "github-20260430-014",
+  "title": "badlogic/pi-mono",
+  "source": "github",
+  "source_url": "https://github.com/badlogic/pi-mono",
+  "author": "badlogic",
+  "published_at": "2026-04-30T08:29:43Z",
+  "collected_at": "2026-04-30T08:57:02.063996+00:00",
+  "summary": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T08:59:40.409412+00:00"
+}

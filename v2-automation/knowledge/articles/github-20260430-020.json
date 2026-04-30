@@ -1,0 +1,17 @@
+{
+  "id": "github-20260430-020",
+  "title": "CopilotKit/CopilotKit",
+  "source": "github",
+  "source_url": "https://github.com/CopilotKit/CopilotKit",
+  "author": "CopilotKit",
+  "published_at": "2026-04-30T08:55:19Z",
+  "collected_at": "2026-04-30T08:57:02.064018+00:00",
+  "summary": "The Frontend Stack for Agents & Generative UI. React + Angular.  Makers of the AG-UI Protocol",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T08:59:40.409433+00:00"
+}

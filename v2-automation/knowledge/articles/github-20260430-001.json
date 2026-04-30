@@ -1,0 +1,17 @@
+{
+  "id": "github-20260430-001",
+  "title": "langgenius/dify",
+  "source": "github",
+  "source_url": "https://github.com/langgenius/dify",
+  "author": "langgenius",
+  "published_at": "2026-04-30T08:56:56Z",
+  "collected_at": "2026-04-30T08:57:02.063903+00:00",
+  "summary": "Production-ready platform for agentic workflow development.",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T08:59:40.409355+00:00"
+}

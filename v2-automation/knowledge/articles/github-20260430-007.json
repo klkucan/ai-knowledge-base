@@ -1,0 +1,17 @@
+{
+  "id": "github-20260430-007",
+  "title": "hiyouga/LlamaFactory",
+  "source": "github",
+  "source_url": "https://github.com/hiyouga/LlamaFactory",
+  "author": "hiyouga",
+  "published_at": "2026-04-29T15:21:13Z",
+  "collected_at": "2026-04-30T08:57:02.063963+00:00",
+  "summary": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T08:59:40.409385+00:00"
+}

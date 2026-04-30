@@ -1,0 +1,17 @@
+{
+  "id": "github-20260430-017",
+  "title": "continuedev/continue",
+  "source": "github",
+  "source_url": "https://github.com/continuedev/continue",
+  "author": "continuedev",
+  "published_at": "2026-04-29T16:21:58Z",
+  "collected_at": "2026-04-30T08:57:02.064008+00:00",
+  "summary": "⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T08:59:40.409423+00:00"
+}

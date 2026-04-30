@@ -1,0 +1,17 @@
+{
+  "id": "github-20260430-019",
+  "title": "langchain-ai/langgraph",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/langgraph",
+  "author": "langchain-ai",
+  "published_at": "2026-04-30T04:27:09Z",
+  "collected_at": "2026-04-30T08:57:02.064015+00:00",
+  "summary": "Build resilient language agents as graphs.",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T08:59:40.409430+00:00"
+}

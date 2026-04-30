@@ -1,0 +1,17 @@
+{
+  "id": "github-20260430-003",
+  "title": "NousResearch/hermes-agent",
+  "source": "github",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "author": "NousResearch",
+  "published_at": "2026-04-30T08:44:37Z",
+  "collected_at": "2026-04-30T08:57:02.063945+00:00",
+  "summary": "The agent that grows with you",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T08:59:40.409369+00:00"
+}

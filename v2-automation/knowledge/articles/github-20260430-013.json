@@ -1,0 +1,17 @@
+{
+  "id": "github-20260430-013",
+  "title": "aaif-goose/goose",
+  "source": "github",
+  "source_url": "https://github.com/aaif-goose/goose",
+  "author": "aaif-goose",
+  "published_at": "2026-04-30T08:00:51Z",
+  "collected_at": "2026-04-30T08:57:02.063992+00:00",
+  "summary": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T08:59:40.409408+00:00"
+}
