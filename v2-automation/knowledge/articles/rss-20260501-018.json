@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260501-018",
+  "title": "Reinforced Agent: Inference-Time Feedback for Tool-Calling Agents",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2604.27233",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-01T08:49:22.512005+00:00",
+  "collected_at": "2026-05-01T08:49:22.512005+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-01T08:51:57.856382+00:00"
+}
