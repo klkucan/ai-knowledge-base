@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260503-016",
+  "title": "Training and Finetuning Multimodal Embedding &amp; Reranker Models with Sentence Transformers",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-05-03T08:42:55.262475+00:00",
+  "collected_at": "2026-05-03T08:42:55.262475+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-03T08:45:29.922060+00:00"
+}

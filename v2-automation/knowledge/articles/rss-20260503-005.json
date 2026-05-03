@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260503-005",
+  "title": "AI evals are becoming the new compute bottleneck",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-05-03T08:42:55.262373+00:00",
+  "collected_at": "2026-05-03T08:42:55.262373+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-03T08:45:29.922035+00:00"
+}
