@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260506-020",
+  "title": "Iterative Finetuning is Mostly Idempotent",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.01130",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-06T09:00:04.953302+00:00",
+  "collected_at": "2026-05-06T09:00:04.953302+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-06T09:02:40.019349+00:00"
+}
