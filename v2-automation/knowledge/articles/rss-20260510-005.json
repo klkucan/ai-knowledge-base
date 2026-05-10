@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260510-005",
+  "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-05-10T08:45:47.194284+00:00",
+  "collected_at": "2026-05-10T08:45:47.194284+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-10T08:48:28.612810+00:00"
+}
