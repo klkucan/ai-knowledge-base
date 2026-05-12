@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260512-005",
+  "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
+  "source": "rss:Hacker News (Best)",
+  "source_url": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
+  "author": "Hacker News (Best)",
+  "published_at": "2026-05-12T09:09:29.397890+00:00",
+  "collected_at": "2026-05-12T09:09:29.397890+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-12T09:12:12.471847+00:00"
+}
