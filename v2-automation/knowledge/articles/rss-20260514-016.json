@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260514-016",
+  "title": "When Attention Closes: How LLMs Lose the Thread in Multi-Turn Interaction",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.12922",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-14T09:07:27.676732+00:00",
+  "collected_at": "2026-05-14T09:07:27.676732+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-14T09:10:10.900835+00:00"
+}
