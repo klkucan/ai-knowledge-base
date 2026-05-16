@@ -1,0 +1,17 @@
+{
+  "id": "github-20260516-004",
+  "title": "firecrawl/firecrawl",
+  "source": "github",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "author": "firecrawl",
+  "published_at": "2026-05-16T06:54:36Z",
+  "collected_at": "2026-05-16T08:43:27.771927+00:00",
+  "summary": "🔥 Search, scrape, and clean the web for AI agents.",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-16T08:46:10.372234+00:00"
+}
