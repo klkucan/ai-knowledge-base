@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260517-001",
+  "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+  "source": "rss:Hacker News (Best)",
+  "source_url": "https://crates.io/crates/zerostack/1.0.0",
+  "author": "Hacker News (Best)",
+  "published_at": "2026-05-17T08:51:44.878581+00:00",
+  "collected_at": "2026-05-17T08:51:44.878581+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-17T08:54:30.966409+00:00"
+}
