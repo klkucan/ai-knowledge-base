@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260518-018",
+  "title": "From LLM-Generated Conjectures to Lean Formalizations: Automated Polynomial Inequality Proving via Sum-of-Squares Certificates",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.15445",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-18T09:25:42.355179+00:00",
+  "collected_at": "2026-05-18T09:25:42.355179+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-18T09:28:24.610551+00:00"
+}
