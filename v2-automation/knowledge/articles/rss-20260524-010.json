@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260524-010",
+  "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-05-24T09:01:27.325265+00:00",
+  "collected_at": "2026-05-24T09:01:27.325265+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-24T09:04:02.510962+00:00"
+}
