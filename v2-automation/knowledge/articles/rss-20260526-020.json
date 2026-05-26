@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260526-020",
+  "title": "Authority Inversion in LLM-Mediated Ubiquitous Systems: When Models Trust Users Over Sensors",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.23938",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-26T09:24:49.365009+00:00",
+  "collected_at": "2026-05-26T09:24:49.365009+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-26T09:27:24.665126+00:00"
+}

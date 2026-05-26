@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260526-012",
+  "title": "Toward Reliable Design of LLM-Enabled Agentic Workflows: Optimizing Latency-Reliability-Cost Tradeoffs",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.23929",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-26T09:24:49.364970+00:00",
+  "collected_at": "2026-05-26T09:24:49.364970+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-26T09:27:24.665105+00:00"
+}
