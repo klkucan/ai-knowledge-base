@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260527-014",
+  "title": "OmniToM: Benchmarking Theory of Mind in LLMs via Explicit Belief Modeling",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.26322",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-27T09:22:10.950036+00:00",
+  "collected_at": "2026-05-27T09:22:10.950036+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-27T09:24:45.423284+00:00"
+}
