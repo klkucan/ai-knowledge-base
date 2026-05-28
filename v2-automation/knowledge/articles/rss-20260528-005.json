@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260528-005",
+  "title": "Why LLMs Fail at Causal Discovery and How Interventional Agents Escape",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.27567",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-28T09:29:00.974455+00:00",
+  "collected_at": "2026-05-28T09:29:00.974455+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-28T09:31:40.239028+00:00"
+}

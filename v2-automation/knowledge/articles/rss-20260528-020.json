@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260528-020",
+  "title": "Prefix-Safe Bayesian Belief Tracking for LLM Reasoning Reliability:Separating Calibration from Ranking",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.27712",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-05-28T09:29:00.974524+00:00",
+  "collected_at": "2026-05-28T09:29:00.974524+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-28T09:31:40.239069+00:00"
+}
