@@ -1,0 +1,17 @@
+{
+  "id": "github-20260530-020",
+  "title": "labring/FastGPT",
+  "source": "github",
+  "source_url": "https://github.com/labring/FastGPT",
+  "author": "labring",
+  "published_at": "2026-05-30T06:29:42Z",
+  "collected_at": "2026-05-30T08:57:15.304915+00:00",
+  "summary": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letti",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-30T08:59:58.049880+00:00"
+}
