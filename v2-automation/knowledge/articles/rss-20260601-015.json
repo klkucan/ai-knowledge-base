@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260601-015",
+  "title": "SLAT: Segment-Level Adaptive Trimming for Efficient CoT Reasoning",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2605.30832",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-06-01T10:01:09.197126+00:00",
+  "collected_at": "2026-06-01T10:01:09.197126+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-01T10:03:47.565202+00:00"
+}
