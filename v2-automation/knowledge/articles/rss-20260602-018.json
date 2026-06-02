@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260602-018",
+  "title": "TIGER: Traceable Inference with Graph-Based Evidence Routing for Mitigating Hallucinations in Multimodal Generation",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.00232",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-06-02T09:40:14.883311+00:00",
+  "collected_at": "2026-06-02T09:40:14.883311+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-02T09:42:57.370412+00:00"
+}
