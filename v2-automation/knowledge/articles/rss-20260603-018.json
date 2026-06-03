@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260603-018",
+  "title": "TriEval: A Resource-Efficient Pipeline for LLM Bias, Toxicity, and Truthfulness Assessment",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.03036",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-06-03T09:48:42.917916+00:00",
+  "collected_at": "2026-06-03T09:48:42.917916+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-03T09:51:25.234186+00:00"
+}
