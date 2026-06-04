@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260604-006",
+  "title": "VAMPS: Visual-Assisted Mathematical Problem Solving Benchmark",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.04244",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-06-04T09:30:58.496943+00:00",
+  "collected_at": "2026-06-04T09:30:58.496943+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-04T09:33:41.281829+00:00"
+}
