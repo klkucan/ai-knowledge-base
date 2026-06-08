@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260608-006",
+  "title": "CrowdMath: A Dataset of Crowdsourced Mathematical Research Discussions",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.06526",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-06-08T09:47:44.473438+00:00",
+  "collected_at": "2026-06-08T09:47:44.473438+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-08T09:50:27.919531+00:00"
+}
