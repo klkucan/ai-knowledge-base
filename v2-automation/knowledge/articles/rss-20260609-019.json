@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260609-019",
+  "title": "MemToolAgent overview with a simple restaurant booking scenario where the agent retrieves similar memories, receives feedback on an invalid time format, and generates a reflection to update its memory",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.07909",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-06-09T09:20:37.791819+00:00",
+  "collected_at": "2026-06-09T09:20:37.791819+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-09T09:23:19.369211+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260609-006",
+  "title": "Automatic Extraction of Structured Information from Brain MRI Reports Using an Open-Weight Large Language Model",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.07721",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-06-09T09:20:37.791754+00:00",
+  "collected_at": "2026-06-09T09:20:37.791754+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-09T09:23:19.369177+00:00"
+}
