@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260612-001",
+  "title": "ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.12451",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-06-12T09:36:35.726366+00:00",
+  "collected_at": "2026-06-12T09:36:35.726366+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-12T09:39:10.274246+00:00"
+}

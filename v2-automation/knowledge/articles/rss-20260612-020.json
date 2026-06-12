@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260612-020",
+  "title": "MLUBench: A Benchmark for Lifelong Unlearning Evaluation in MLLMs",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.12809",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-06-12T09:36:35.726473+00:00",
+  "collected_at": "2026-06-12T09:36:35.726473+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-12T09:39:10.274300+00:00"
+}
