@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260616-005",
+  "title": "PrologMCP: A Standardized Prolog Tool Interface for LLM Agents",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.14935",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-06-16T09:56:13.866318+00:00",
+  "collected_at": "2026-06-16T09:56:13.866318+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-16T09:58:55.968164+00:00"
+}
