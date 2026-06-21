@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260621-002",
+  "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/peft-beyond-lora",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-06-21T09:26:12.041568+00:00",
+  "collected_at": "2026-06-21T09:26:12.041568+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-21T09:28:47.464111+00:00"
+}
