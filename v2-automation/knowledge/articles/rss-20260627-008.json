@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260627-008",
+  "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-06-27T09:04:16.647051+00:00",
+  "collected_at": "2026-06-27T09:04:16.647051+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-27T09:06:54.702840+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260627-006",
+  "title": "Run a vLLM Server on HF Jobs in One Command",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/vllm-jobs",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-06-27T09:04:16.647005+00:00",
+  "collected_at": "2026-06-27T09:04:16.647005+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-06-27T09:06:54.702834+00:00"
+}
