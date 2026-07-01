@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260701-010",
+  "title": "RoPoLL: Robust Panel of LLM Judges",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2606.30931",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-07-01T09:20:13.180849+00:00",
+  "collected_at": "2026-07-01T09:20:13.180849+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-07-01T09:22:48.876996+00:00"
+}
