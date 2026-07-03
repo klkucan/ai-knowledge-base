@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260703-010",
+  "title": "World Feedback for Clinical Agents: Diagnosing RL in FHIR Environments",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2607.01470",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-07-03T10:45:41.282177+00:00",
+  "collected_at": "2026-07-03T10:45:41.282177+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-07-03T10:48:16.354487+00:00"
+}

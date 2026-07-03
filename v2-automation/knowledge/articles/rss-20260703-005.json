@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260703-005",
+  "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2607.01425",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-07-03T10:45:41.282151+00:00",
+  "collected_at": "2026-07-03T10:45:41.282151+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-07-03T10:48:16.354472+00:00"
+}
