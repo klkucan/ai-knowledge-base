@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260709-002",
+  "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+  "source": "rss:Hacker News (Best)",
+  "source_url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+  "author": "Hacker News (Best)",
+  "published_at": "2026-07-09T11:13:14.122565+00:00",
+  "collected_at": "2026-07-09T11:13:14.122565+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-07-09T11:15:49.337456+00:00"
+}
