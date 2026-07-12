@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260712-010",
+  "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/skypilot-hf-storage",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-07-12T09:57:39.687234+00:00",
+  "collected_at": "2026-07-12T09:57:39.687234+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-07-12T10:00:18.876625+00:00"
+}
