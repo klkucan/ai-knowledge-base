@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260713-019",
+  "title": "LongMedBench: Benchmarking Medical Agents for Long-Horizon Clinical Decision-Making",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2607.09322",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-07-13T11:21:17.401125+00:00",
+  "collected_at": "2026-07-13T11:21:17.401125+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-07-13T11:23:52.142319+00:00"
+}
