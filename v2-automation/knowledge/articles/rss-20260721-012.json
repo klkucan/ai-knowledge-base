@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260721-012",
+  "title": "Generative Ontology Induction: Domain-Agnostic Schema Discovery from Document Corpora Using Large Language Models",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2607.16201",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-07-21T10:30:39.402639+00:00",
+  "collected_at": "2026-07-21T10:30:39.402639+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-07-21T10:33:17.632308+00:00"
+}

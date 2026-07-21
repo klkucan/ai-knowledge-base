@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260721-010",
+  "title": "PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2607.16199",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-07-21T10:30:39.402632+00:00",
+  "collected_at": "2026-07-21T10:30:39.402632+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-07-21T10:33:17.632303+00:00"
+}
