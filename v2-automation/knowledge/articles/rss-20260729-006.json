@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260729-006",
+  "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2607.24762",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-07-29T10:45:53.099897+00:00",
+  "collected_at": "2026-07-29T10:45:53.099897+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-07-29T10:48:27.456737+00:00"
+}

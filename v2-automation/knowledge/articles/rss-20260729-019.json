@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260729-019",
+  "title": "LivingArena: Do LLMs Know What Other LLMs Don't? Peer-Probing as Scalable Evaluation",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2607.24780",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-07-29T10:45:53.099957+00:00",
+  "collected_at": "2026-07-29T10:45:53.099957+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-07-29T10:48:27.456792+00:00"
+}
