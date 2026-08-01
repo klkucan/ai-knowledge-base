@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260801-008",
+  "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-08-01T10:05:52.011977+00:00",
+  "collected_at": "2026-08-01T10:05:52.011977+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-01T10:08:33.170032+00:00"
+}
