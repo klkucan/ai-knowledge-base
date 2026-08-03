@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260803-017",
+  "title": "EarlyDx: An Admission-Anchored Benchmark for Open-Ended Generation of Evidence-Supported ED-Encounter Diagnoses",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2607.28788",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-03T11:35:05.036076+00:00",
+  "collected_at": "2026-08-03T11:35:05.036076+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-03T11:37:42.887707+00:00"
+}
