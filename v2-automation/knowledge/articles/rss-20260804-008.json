@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260804-008",
+  "title": "CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.00014",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-04T10:46:13.887619+00:00",
+  "collected_at": "2026-08-04T10:46:13.887619+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-04T10:48:55.949658+00:00"
+}
