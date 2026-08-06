@@ -1,0 +1,17 @@
+{
+  "id": "github-20260806-020",
+  "title": "bojieli/ai-agent-book",
+  "source": "github",
+  "source_url": "https://github.com/bojieli/ai-agent-book",
+  "author": "bojieli",
+  "published_at": "2026-08-06T10:37:06Z",
+  "collected_at": "2026-08-06T10:46:05.265461+00:00",
+  "summary": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-06T10:48:53.580071+00:00"
+}
