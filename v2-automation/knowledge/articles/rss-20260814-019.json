@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260814-019",
+  "title": "LinearKV: One Cached State Suffices for Position-Independent Caching in Hybrid LLMs",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.11231",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-14T09:12:56.812583+00:00",
+  "collected_at": "2026-08-14T09:12:56.812583+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-14T09:15:38.069591+00:00"
+}
