@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260815-015",
+  "title": "Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.12476",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-15T08:36:57.021179+00:00",
+  "collected_at": "2026-08-15T08:36:57.021179+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-15T08:39:30.675501+00:00"
+}
