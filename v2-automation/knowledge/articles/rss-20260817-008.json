@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260817-008",
+  "title": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.13565",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-17T08:51:58.389896+00:00",
+  "collected_at": "2026-08-17T08:51:58.389896+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-17T08:54:37.790669+00:00"
+}
