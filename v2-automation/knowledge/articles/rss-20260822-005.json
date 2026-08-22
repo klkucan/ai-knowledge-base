@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260822-005",
+  "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+  "source": "rss:Hacker News (Best)",
+  "source_url": "https://github.com/zachahn/vomit",
+  "author": "Hacker News (Best)",
+  "published_at": "2026-08-22T08:37:36.587684+00:00",
+  "collected_at": "2026-08-22T08:37:36.587684+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-22T08:41:47.450227+00:00"
+}
