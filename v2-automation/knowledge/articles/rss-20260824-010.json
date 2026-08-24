@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260824-010",
+  "title": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.20397",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-24T08:56:07.190849+00:00",
+  "collected_at": "2026-08-24T08:56:07.190849+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-24T08:58:50.518595+00:00"
+}
