@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260825-002",
+  "title": "I built a low-latency AI companion that plays Skyrim with me",
+  "source": "rss:Hacker News (Best)",
+  "source_url": "https://pantel.is/projects/ai-gaming-companion/",
+  "author": "Hacker News (Best)",
+  "published_at": "2026-08-25T08:51:10.474418+00:00",
+  "collected_at": "2026-08-25T08:51:10.474418+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-25T08:53:49.997240+00:00"
+}
