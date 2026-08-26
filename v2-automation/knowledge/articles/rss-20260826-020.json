@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260826-020",
+  "title": "Serving Masked Diffusion LLMs: Characterization and Design Principles from Real Hardware",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.23807",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-26T08:52:09.790564+00:00",
+  "collected_at": "2026-08-26T08:52:09.790564+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-26T08:54:52.130894+00:00"
+}
