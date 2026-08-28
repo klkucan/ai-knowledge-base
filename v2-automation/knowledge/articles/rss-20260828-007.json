@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260828-007",
+  "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.26114",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-28T20:08:44.941335+00:00",
+  "collected_at": "2026-08-28T20:08:44.941335+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-28T20:11:25.596252+00:00"
+}

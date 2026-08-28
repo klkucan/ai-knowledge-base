@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260828-004",
+  "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.26109",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-28T20:08:44.941308+00:00",
+  "collected_at": "2026-08-28T20:08:44.941308+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-28T20:11:25.596243+00:00"
+}

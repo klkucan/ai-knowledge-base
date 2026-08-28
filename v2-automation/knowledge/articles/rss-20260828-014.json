@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260828-014",
+  "title": "EEG-to-Report: An Annotation and Feature-Text Framework for Training Language Models on Clinical EEG",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2608.26153",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-08-28T20:08:44.941370+00:00",
+  "collected_at": "2026-08-28T20:08:44.941370+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-28T20:11:25.596277+00:00"
+}
