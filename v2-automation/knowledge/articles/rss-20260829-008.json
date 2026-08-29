@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260829-008",
+  "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/pwc-search",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-08-29T13:46:23.495049+00:00",
+  "collected_at": "2026-08-29T13:46:23.495049+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-29T13:49:05.482581+00:00"
+}

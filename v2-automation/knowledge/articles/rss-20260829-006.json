@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260829-006",
+  "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-08-29T13:46:23.495039+00:00",
+  "collected_at": "2026-08-29T13:46:23.495039+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-29T13:49:05.482575+00:00"
+}
