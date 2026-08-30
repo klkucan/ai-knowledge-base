@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260830-003",
+  "title": "StemDeck, a free, open-source and local AI stem separator",
+  "source": "rss:Hacker News (Best)",
+  "source_url": "https://github.com/stemdeckapp/stemdeck",
+  "author": "Hacker News (Best)",
+  "published_at": "2026-08-30T13:44:13.002580+00:00",
+  "collected_at": "2026-08-30T13:44:13.002580+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-08-30T13:46:51.134709+00:00"
+}
