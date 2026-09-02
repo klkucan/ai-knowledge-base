@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260902-010",
+  "title": "SCAFFOLD: A Large-Scale Structured Dataset of Computer Science Research Figures with Diagram QA and Chain-of-Thought Reasoning Traces",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2609.00018",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-09-02T12:42:29.546217+00:00",
+  "collected_at": "2026-09-02T12:42:29.546217+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-02T12:45:03.776857+00:00"
+}
