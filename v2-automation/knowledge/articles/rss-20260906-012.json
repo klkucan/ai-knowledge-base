@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260906-012",
+  "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/webgpu-kernels",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-09-06T12:04:47.747311+00:00",
+  "collected_at": "2026-09-06T12:04:47.747311+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-06T12:07:26.830304+00:00"
+}
