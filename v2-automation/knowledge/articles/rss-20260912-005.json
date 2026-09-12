@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260912-005",
+  "title": "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2609.10629",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-09-12T12:05:30.135310+00:00",
+  "collected_at": "2026-09-12T12:05:30.135310+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-12T12:08:03.993590+00:00"
+}
