@@ -1,0 +1,17 @@
+{
+  "id": "github-20260915-006",
+  "title": "JuliusBrussee/caveman",
+  "source": "github",
+  "source_url": "https://github.com/JuliusBrussee/caveman",
+  "author": "JuliusBrussee",
+  "published_at": "2026-09-15T07:52:04Z",
+  "collected_at": "2026-09-15T13:23:52.735871+00:00",
+  "summary": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-15T13:26:34.337098+00:00"
+}

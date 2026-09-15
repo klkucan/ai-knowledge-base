@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260915-005",
+  "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2609.13406",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-09-15T13:23:58.356481+00:00",
+  "collected_at": "2026-09-15T13:23:58.356481+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-15T13:26:34.337124+00:00"
+}
