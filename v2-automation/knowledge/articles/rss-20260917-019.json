@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260917-019",
+  "title": "The Inference Engineering Pareto Atlas: Which Optimizations Dominate the Cost, Quality, and Latency Frontier?",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2609.17863",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-09-17T13:18:47.647858+00:00",
+  "collected_at": "2026-09-17T13:18:47.647858+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-17T13:21:29.790466+00:00"
+}

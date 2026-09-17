@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260917-018",
+  "title": "SNOMED CT Concept Recommendation from Masked Clinical Context",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2609.17855",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-09-17T13:18:47.647853+00:00",
+  "collected_at": "2026-09-17T13:18:47.647853+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-17T13:21:29.790463+00:00"
+}

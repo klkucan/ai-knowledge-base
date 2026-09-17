@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260917-015",
+  "title": "FairCompressAgent: An Agentic Framework for Fairness-Aware Model Compression for FPGA Deployment",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2609.17786",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-09-17T13:18:47.647825+00:00",
+  "collected_at": "2026-09-17T13:18:47.647825+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-17T13:21:29.790455+00:00"
+}
