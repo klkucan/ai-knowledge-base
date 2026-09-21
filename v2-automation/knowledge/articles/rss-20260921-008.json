@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260921-008",
+  "title": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2609.21096",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-09-21T15:01:09.044969+00:00",
+  "collected_at": "2026-09-21T15:01:09.044969+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-21T15:03:45.744262+00:00"
+}

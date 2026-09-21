@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260921-004",
+  "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2609.20971",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-09-21T15:01:09.044913+00:00",
+  "collected_at": "2026-09-21T15:01:09.044913+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-21T15:03:45.744246+00:00"
+}
