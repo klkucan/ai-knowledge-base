@@ -1,0 +1,17 @@
+{
+  "id": "github-20260925-009",
+  "title": "unclecode/crawl4ai",
+  "source": "github",
+  "source_url": "https://github.com/unclecode/crawl4ai",
+  "author": "unclecode",
+  "published_at": "2026-09-25T06:37:14Z",
+  "collected_at": "2026-09-25T13:34:00.936655+00:00",
+  "summary": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-25T13:36:46.799389+00:00"
+}
