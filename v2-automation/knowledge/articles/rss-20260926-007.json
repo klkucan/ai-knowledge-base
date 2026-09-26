@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260926-007",
+  "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-09-26T12:56:27.248127+00:00",
+  "collected_at": "2026-09-26T12:56:27.248127+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-26T12:59:09.551065+00:00"
+}

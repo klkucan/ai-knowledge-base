@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260926-005",
+  "title": "Transformers now runs llama.cpp quants",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-09-26T12:56:27.248116+00:00",
+  "collected_at": "2026-09-26T12:56:27.248116+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-26T12:59:09.551060+00:00"
+}

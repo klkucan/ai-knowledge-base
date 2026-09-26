@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260926-004",
+  "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/evaleval-aisi",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-09-26T12:56:27.248110+00:00",
+  "collected_at": "2026-09-26T12:56:27.248110+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-26T12:59:09.551057+00:00"
+}
