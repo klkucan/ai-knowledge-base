@@ -1,0 +1,17 @@
+{
+  "id": "github-20260928-016",
+  "title": "blader/humanizer",
+  "source": "github",
+  "source_url": "https://github.com/blader/humanizer",
+  "author": "blader",
+  "published_at": "2026-09-28T05:55:12Z",
+  "collected_at": "2026-09-28T16:41:03.366447+00:00",
+  "summary": "Agent skill that removes signs of AI-generated writing from text",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-28T16:43:46.413858+00:00"
+}
