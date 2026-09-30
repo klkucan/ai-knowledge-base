@@ -1,0 +1,17 @@
+{
+  "id": "rss-20260930-005",
+  "title": "OpenAI-HuggingFace: A Reproduction &amp; Lessons for Alignment Testing",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2609.35799",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-09-30T14:49:35.294794+00:00",
+  "collected_at": "2026-09-30T14:49:35.294794+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-09-30T14:52:13.908439+00:00"
+}
