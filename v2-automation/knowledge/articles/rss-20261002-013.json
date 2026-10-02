@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261002-013",
+  "title": "Build2SPARQL: A Large-Scale Text-to-SPARQL Benchmark Dataset for Building Knowledge Graph Querying",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2610.00224",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-10-02T14:38:57.046096+00:00",
+  "collected_at": "2026-10-02T14:38:57.046096+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-10-02T14:41:32.098136+00:00"
+}
