@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261007-020",
+  "title": "Self-Propagating Misalignment in LLM Agents, and Why Auditing or Disabling Memory Is Not Enough",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2610.04083",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-10-07T15:26:57.762872+00:00",
+  "collected_at": "2026-10-07T15:26:57.762872+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-10-07T15:29:33.641580+00:00"
+}
