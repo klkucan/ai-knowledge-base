@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261014-019",
+  "title": "Echo: Error-Compensated 4-Bit Tensor-Parallel Communication for LLM Training and Inference",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2610.14277",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-10-14T13:33:59.267434+00:00",
+  "collected_at": "2026-10-14T13:33:59.267434+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-10-14T13:36:34.540753+00:00"
+}
