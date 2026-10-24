@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261024-014",
+  "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/hf-torchneuron",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-10-24T12:35:33.419505+00:00",
+  "collected_at": "2026-10-24T12:35:33.419505+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-10-24T12:38:10.429518+00:00"
+}

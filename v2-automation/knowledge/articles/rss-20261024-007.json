@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261024-007",
+  "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/nvidia/kumo-relational",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-10-24T12:35:33.419483+00:00",
+  "collected_at": "2026-10-24T12:35:33.419483+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-10-24T12:38:10.429502+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261024-009",
+  "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-10-24T12:35:33.419489+00:00",
+  "collected_at": "2026-10-24T12:35:33.419489+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-10-24T12:38:10.429506+00:00"
+}

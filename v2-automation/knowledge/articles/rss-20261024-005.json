@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261024-005",
+  "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-10-24T12:35:33.419476+00:00",
+  "collected_at": "2026-10-24T12:35:33.419476+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-10-24T12:38:10.429497+00:00"
+}

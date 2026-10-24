@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261024-013",
+  "title": "MPS in PyTorch 2.15",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/mps-pytorch-2-15",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-10-24T12:35:33.419502+00:00",
+  "collected_at": "2026-10-24T12:35:33.419502+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-10-24T12:38:10.429514+00:00"
+}
