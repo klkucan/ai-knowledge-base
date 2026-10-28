@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261028-011",
+  "title": "CohortFlow: A Steerable Clinical Cohort Curation Agent with Localized Semantic Correction",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2610.36100",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-10-28T14:59:47.715705+00:00",
+  "collected_at": "2026-10-28T14:59:47.715705+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-10-28T15:02:30.240170+00:00"
+}
