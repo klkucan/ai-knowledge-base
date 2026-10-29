@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261029-001",
+  "title": "Claude Code regularly sends each background agent’s transcript to its model",
+  "source": "rss:Hacker News (Best)",
+  "source_url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+  "author": "Hacker News (Best)",
+  "published_at": "2026-10-29T15:07:18.436630+00:00",
+  "collected_at": "2026-10-29T15:07:18.436630+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-10-29T15:09:57.415006+00:00"
+}
