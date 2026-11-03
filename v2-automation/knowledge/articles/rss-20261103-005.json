@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261103-005",
+  "title": "Reimagining Text-to-SQL: A Survey of Large Language Model Architectures and Strategies",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2611.00171",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-11-03T16:01:56.040844+00:00",
+  "collected_at": "2026-11-03T16:01:56.040844+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-03T16:04:36.817301+00:00"
+}

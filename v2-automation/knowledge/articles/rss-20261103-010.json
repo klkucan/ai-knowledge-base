@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261103-010",
+  "title": "RE-SciVQA: Improving Scientific VQA With Context-Relevant Retrieval and Lightweight MLLM Adaptation",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2611.00242",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-11-03T16:01:56.040870+00:00",
+  "collected_at": "2026-11-03T16:01:56.040870+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-03T16:04:36.817316+00:00"
+}
