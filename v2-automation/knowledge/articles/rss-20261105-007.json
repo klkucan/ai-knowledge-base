@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261105-007",
+  "title": "Can Large Language Models Review the Scientific Literature? A Test Against a 102-Article Benchmark",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2611.05459",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-11-05T16:21:38.498113+00:00",
+  "collected_at": "2026-11-05T16:21:38.498113+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-05T16:24:12.645699+00:00"
+}
