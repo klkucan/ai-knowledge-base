@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261107-010",
+  "title": "Transformers Model Integration Contracts",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/transformers-mic",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-11-07T14:49:53.902303+00:00",
+  "collected_at": "2026-11-07T14:49:53.902303+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-07T14:52:35.695997+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261107-007",
+  "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-11-07T14:49:53.902289+00:00",
+  "collected_at": "2026-11-07T14:49:53.902289+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-07T14:52:35.695988+00:00"
+}

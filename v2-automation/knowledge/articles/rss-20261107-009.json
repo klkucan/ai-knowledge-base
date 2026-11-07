@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261107-009",
+  "title": "CWE-bench v2: More coverage, quality, and transparency",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/cwe-bench",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-11-07T14:49:53.902299+00:00",
+  "collected_at": "2026-11-07T14:49:53.902299+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-07T14:52:35.695994+00:00"
+}
