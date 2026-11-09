@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261109-017",
+  "title": "AttentionSwitch: Jailbreak Defense for LLMs via Joint Learning of Sparse Attention-Head Selection and Scaling",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2611.08752",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-11-09T18:38:13.663353+00:00",
+  "collected_at": "2026-11-09T18:38:13.663353+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-09T18:40:47.841019+00:00"
+}
