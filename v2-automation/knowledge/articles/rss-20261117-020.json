@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261117-020",
+  "title": "Guiding AI Agents to Generate Conjectures by Encoding How Theorems Build on One Another",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2611.19108",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-11-17T17:31:23.704144+00:00",
+  "collected_at": "2026-11-17T17:31:23.704144+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-17T17:34:05.741070+00:00"
+}

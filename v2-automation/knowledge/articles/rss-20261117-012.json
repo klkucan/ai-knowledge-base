@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261117-012",
+  "title": "SpecRelay: Amortize or Avoid the Round Trip in Edge-Cloud Speculative Decoding",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2611.18963",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-11-17T17:31:23.704114+00:00",
+  "collected_at": "2026-11-17T17:31:23.704114+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-17T17:34:05.741051+00:00"
+}
