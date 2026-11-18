@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261118-014",
+  "title": "KV-LTM: Persistent Per-Session KV Caches as Long-Term Memory for Personal Assistants",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2611.21998",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-11-18T17:07:46.842034+00:00",
+  "collected_at": "2026-11-18T17:07:46.842034+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-18T17:10:19.913009+00:00"
+}
