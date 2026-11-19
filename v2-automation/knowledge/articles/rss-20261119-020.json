@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261119-020",
+  "title": "LProp: Propagating Latent Uncertainty through Evidence-Conditioned Belief Revision in LLM Agents",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2611.23564",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-11-19T17:14:55.151598+00:00",
+  "collected_at": "2026-11-19T17:14:55.151598+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-19T17:17:39.782086+00:00"
+}
