@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261121-008",
+  "title": "Why your fine-tuning job takes longer than the FLOPs say",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-11-21T16:01:28.107055+00:00",
+  "collected_at": "2026-11-21T16:01:28.107055+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-21T16:04:03.400677+00:00"
+}
