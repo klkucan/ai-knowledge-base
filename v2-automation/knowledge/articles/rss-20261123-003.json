@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261123-003",
+  "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2611.26722",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-11-23T20:01:34.796471+00:00",
+  "collected_at": "2026-11-23T20:01:34.796471+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-23T20:04:11.369383+00:00"
+}
