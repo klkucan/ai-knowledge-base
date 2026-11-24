@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261124-016",
+  "title": "Selection Policies for Equal-Byte Mixed-Precision Quantization of Small Language Models",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2611.28318",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-11-24T19:27:12.172243+00:00",
+  "collected_at": "2026-11-24T19:27:12.172243+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-24T19:29:49.379699+00:00"
+}

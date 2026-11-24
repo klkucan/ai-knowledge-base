@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261124-005",
+  "title": "torchtsetlin: Fast, Interpretable Tsetlin Machines for PyTorch",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2611.28195",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-11-24T19:27:12.172187+00:00",
+  "collected_at": "2026-11-24T19:27:12.172187+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-24T19:29:49.379660+00:00"
+}
