@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261126-020",
+  "title": "How Much Effort Does an AI Code Reviewer Need? Evidence from Claude 5.5 Models on Plausible-but-Wrong Patches",
+  "source": "rss:arXiv cs.AI",
+  "source_url": "https://arxiv.org/abs/2611.33639",
+  "author": "arXiv cs.AI",
+  "published_at": "2026-11-26T18:18:50.801164+00:00",
+  "collected_at": "2026-11-26T18:18:50.801164+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-26T18:21:28.984304+00:00"
+}
