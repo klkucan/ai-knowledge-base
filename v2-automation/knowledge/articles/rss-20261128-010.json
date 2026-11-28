@@ -1,0 +1,17 @@
+{
+  "id": "rss-20261128-010",
+  "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+  "source": "rss:Hugging Face Blog",
+  "source_url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+  "author": "Hugging Face Blog",
+  "published_at": "2026-11-28T16:45:58.715763+00:00",
+  "collected_at": "2026-11-28T16:45:58.715763+00:00",
+  "summary": "",
+  "score": 5,
+  "tags": [
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-11-28T16:48:36.117470+00:00"
+}
